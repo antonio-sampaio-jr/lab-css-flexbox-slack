@@ -8,3 +8,203 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+* {
+    background-color: #540B51; 
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > div  {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+li{
+    text-align: auto;
+    color: white;
+    list-style-type: none;
+    list-style-position: inside;
+    padding: 20px;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+h1{
+    color: white;
+    font-size: 45px;
+}
+
+.paragrafo{
+    color: white;
+    font-size: 25px;
+}
+.logo{
+    height: 25%;
+    margin: 10px;
+}
+
+.loggo{
+    height: 25%;
+    margin: 10px;
+}
+
+.search{
+    width: 20%;
+    height: 20%;
+    margin: 10px;
+    border: 0px;
+}
+
+.menu{
+    width: 2%;
+    height: 2%;
+    margin: 10px;
+    border: 0px;
+}
+
+.branco{
+    background-color: white;
+    color: purple;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+}
+.email{
+    background-color: white;
+    color: purple;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.botao{
+    background-color: #4285F4;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color:white;
+    
+}
+
+.google{
+    background-color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+    height: 40px;
+    margin: 10px;
+}
+
+.log{
+    background-color: #F3EAE2;
+    font-size: 30px;
+    align-content: center;
+}
+
+.fundo{
+    background-color: #F3EAE2;
+}
+
+@media (max-width:768px){
+    li{
+        display:none;
+    }
+
+    .img01{
+        width: 80%;
+        height: 80%;
+        margin: 10px;
+        border: 0px;
+    }
+
+    h1{
+        color: white;
+        font-size: 55px;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .email{
+        background-color: white;
+        color: purple;
+        text-transform: uppercase;
+        padding: 5px;
+        border-radius: 2px;
+        margin-bottom: 10px;
+        width: 70%;
+    }
+
+    .alinhar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .botao{
+        background-color: #4285F4;
+        text-transform: uppercase;
+        border-radius: 2px;
+        color:white;
+        
+    }
+
+    .fundo{
+        background-color: #F3EAE2;
+    }
+
+    .logo{
+        width: 20%;
+        align-items: center;
+        margin: 20px;
+        background-color: #F3EAE2;
+    }
+
+    .log{
+        background-color: #F3EAE2;
+        font-size: 30px;
+        align-content: center;
+    }
+
+    .lo{
+        background-color: #F3EAE2;
+        flex-direction: row;
+        justify-content: baseline;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .loggo{
+        height: 25%;
+        margin: 10px;
+    }
+
+}
+
+footer{
+    text-align: center;
+    padding: 20 px 0;
+    background-color: gray;
+}
